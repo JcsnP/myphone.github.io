@@ -1,0 +1,893 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:200,400,500,700,900');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-image: linear-gradient(#000,#111);
+}
+
+.container-header {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.logo-title h1 {
+    margin: 0.5em;
+    font-size: 4em;
+    color: #fff;
+}
+
+.logo-title p {
+    font-size: 1.7em;
+    color: #fff;
+}
+/*
+.logo-image {}
+*/
+.logo-image img {
+    width: 60%;
+    height: auto;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.logo-image img:hover {
+    transform: rotate(-90deg);
+}
+/*
+.intro-title {
+    background-image: url(https://wallpaperplay.com/walls/full/8/d/5/182597.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+*/
+.intro-title {
+    margin-bottom: 3em;
+}
+
+.intro-title h1 {
+    font-size: 5em;
+    color: #e58b4d;
+    margin: 0.5em 0;
+    /*
+    transition: 2s;
+    */
+}
+
+.intro-title p {
+    color: #ffd273;
+    font-size: 2em;
+    line-height: 1.5em;
+    /*
+    transition: 0.5s;
+    */
+    cursor: pointer;
+}
+/*
+.intro-title p:hover {
+    letter-spacing: 2px;
+}
+*/
+.red {
+    cursor: pointer; 
+}
+
+.red:hover {
+    color: #3f51b5;
+}
+
+/*SECTION DISPLAY*/
+section.display {
+    width: 100%;
+    height: auto;
+    background: #f75b45;
+    overflow: hidden;
+}
+
+.display-title {
+    text-align: center;
+    padding: 1em;
+}
+
+.display-title h1 {
+    font-size: 4em;
+    margin-top: 0.6em;
+}
+
+.display-title h3 {
+    font-size: 3em;
+    margin-top: 0.7em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.display-container {
+    margin: 0 0 3.5em 0;
+}
+
+.display-info {
+    width: 100%;
+    display: block;
+    margin: 6em auto; 
+}
+
+.grid-items {
+    display: block;
+    margin: auto;
+    /*
+    margin: 0 auto 5em auto;
+    */
+}
+
+.h2 {
+    font-size: 2em;
+}
+
+.h3 {
+    font-size: 3.2em;
+}
+
+.dis {
+    margin: 1.2em 0;
+}
+/*
+.display-image {
+}
+*/
+.display-image img {
+    width: 100%;
+}
+
+/*SECTION FACE ID*/
+
+section.faceid {
+    width: 100%;
+    height: auto;
+    background: #000; 
+    overflow: hidden;
+}
+
+.faceid-title h1 {
+    color:  #fff;
+    font-size: 3em;
+    margin: 0.4em 0;
+}
+
+.faceid-title h3 {
+    color: #e58b4d;
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.faceid-container {
+    margin: 3.5em 0 4em 0;
+}
+
+.faceid-image img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.h3-faceid {
+    font-size: 3em;
+}
+
+.h2-faceid {
+    font-size: 1.5em;
+    /*
+    color: #bcbaba;
+    */   
+    color: #aaa9a9;  
+}
+
+.face {
+    color: #fff;
+    margin: 1.7em 0;
+}
+
+/*SECTION CHIP*/
+section.chip {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#EEA849,#FF3984);
+}
+
+.chip-title {
+    margin: 3em 0;
+}
+
+.chip-title h1 {
+    color: #000;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.chip-title h3 {
+    font-size: 3em;
+    margin: 0.3em 0;
+    color: #111;
+}
+
+.chip-image {
+    text-align: center;
+}
+
+.chip-image img {
+    width: 70%;
+}
+
+/*GRID CONTAINER 2 , ITEMS*/
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid-items-2 {
+    display: block;
+    margin: auto;
+}
+
+.chip-details {
+    margin: 5em 0 5em 0;
+}
+
+.cpu-title {
+    width: 96%;
+}
+
+.cpu-h3 {
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+.cpu-h2 {
+    font-size: 3em;
+    line-height: 1.2em;
+}
+
+.chip-highlight {
+    color: #111;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.cpu-main {
+    margin: 2.3em 0;
+}
+
+.cpu-image img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cpu-image img:hover {
+    transform: rotate(-5deg);
+}
+
+.process-cpu-main {
+    margin: 5em 0 0 0;
+}
+
+.process-p {
+    font-size: 2.4em;
+    line-height: 1.1em;
+}
+
+.process-p-highlight {
+    color: #111;
+}
+
+.grid-container-chip-show {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.chip-show {
+    display: block;
+    margin: auto;
+}
+
+.chip-show-text {
+    margin-top: 3em;
+    position: relative;
+}
+
+.chip-show-text h3 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin: 0 auto;
+    display: block;
+}
+
+.grid-items-chip-show {
+    text-align: center;
+    margin: 4em 0;
+}
+
+.ship-show-image {
+    /**/
+}
+
+.chip-show-camera img {
+    width: 50%;
+}
+
+.chip-show-3d img {
+    width: 50%;
+}
+
+.chip-show-gps img {
+    width: 45%;
+    position: relative;
+}
+
+.chip-show-animoji img {
+    width: 50%;
+}
+
+/*SECTION CAMERA*/
+.camera {
+    width: 100%;
+    height: auto;
+    background:linear-gradient(#000,#111);
+    overflow: hidden;
+}
+
+.camera-wallpaper {
+    width: 100%;
+    height: auto;
+}
+
+.camera-wallpaper {
+    /*
+    margin: 1.5em 0 1.5em 0;
+    */
+    padding: 5em 0 0 0;
+    text-align: center;
+}
+
+.camera-wallpaper img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.camera-title {
+    color: #fff;
+    font-size: 2.9em;
+    line-height: 1.1em;
+    margin: 1.6em 0;
+}
+
+.camera-highlight {
+    color: #f3f3f3;
+}
+
+/*PARALLAX EFFECT*/
+.camera-wallpaper-parallax {
+    background-image: url(../image/camera-wallpaper-parallax.jpg);
+    min-width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.camera-hdr , .camera-action , .camera-night {
+    margin: 4em 0;
+}
+
+.camera-hdr h3 , .camera-action h3 , .camera-night h3 {
+    color: #f3f3f3;
+    font-size: 2.2em;
+    line-height: 1.1em;
+}
+
+.hdr-highlight , .action-highlight , .night-highlight  {
+    color: #fff;
+}
+
+.camera-simple img {
+    width: 100%;
+}
+
+.camera-action {
+    margin: 2.2em 0;
+}
+
+/*SECTION CAMERA BACK*/
+.camera-back {
+    width: 100%;
+    height: auto;
+    background: #222;
+}
+
+.camera-back-wallpaper {
+    text-align: center;
+    padding-top: 2.6em;
+}
+
+.back-camera img {
+    width: 100%;
+}
+
+.front-camera img {
+    width: 75%;
+}
+
+.camera-back-details {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+.camera-back-items {
+    margin: 2.4em auto 3.2em auto;
+}
+
+.lens p , .tele p {
+    font-size: 2em;
+    color: #acacac;
+}
+
+.lens h2 , .tele h2 , .ois h3 , .video h2 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.ois p , .video p , .tele p {
+    font-size: 1.5em;
+    color: #acacac;
+    line-height: 1.2em;
+    margin-top: 0.1em;
+}
+
+.selfie p {
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.2em;
+    margin-top: 0.1em;
+}
+
+/*SECTION CAMERA FRONT*/
+.camera-front {
+    width: 100%;
+    height: auto;
+    background: #111;
+}
+
+/*SECTION SPECS*/
+.specs {
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+
+.specs-title {
+    font-size: 2.6em;
+    color: #fff;
+    padding: 2em 0 1em 0;
+}
+
+.specs-iphone-name {
+    border-top: 4px solid rgb(160, 155, 155);
+    border-bottom: 4px solid rgb(160, 155, 155);
+    padding: 2em 0;
+    margin-top: 2.5em;
+}
+
+.specs-iphone-name h2 {
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+}
+
+.iphone-name-highlight {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.iphone-name-highlight:hover {
+    color: #EEA849;
+}
+
+.specs-color {
+    padding-bottom: 1em;
+    border-bottom: 4px solid rgb(160, 155, 155);
+}
+
+.color-name {
+    margin: 2em 0;
+}
+
+.spname {
+    margin: 1em 0;
+}
+
+.color-name h1 , .spname {
+    color: #fff;
+    font-size: 2.2em;
+}
+
+.color-image {
+    margin: 2.7em 0 1em 0;
+    text-align: center;
+}
+
+.color-image img {
+    width: 50%;
+}
+
+.color-image p {
+    color: rgb(160, 155, 155);
+    font-size: 1.4em;
+    padding: 1em 0;
+    cursor: pointer;
+}
+
+.specs-rom {
+    text-align: center;
+    border-bottom: 4px solid rgb(160, 155, 155);
+    padding-bottom: 3.4em;
+}
+
+.rom-details h3 {
+    color: #fff;
+    font-size: 2.2em;
+    line-height: 1.2em;
+    cursor: pointer;
+}
+
+.rom-details h3:hover {
+    border-left: 4px solid #f1f1f1;
+    border-right: 4px solid #f1f1f1;
+}
+
+.specs-display {
+    border-bottom: 4px solid rgb(160, 155, 155);
+    padding-bottom: 3.1em;
+}
+
+.display-name {
+    width: 20%;
+    margin: 2em 0;
+}
+
+.display-name h1 {
+    color: #fff;
+    font-size: 2.4em;
+}
+
+.display-details {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.display-details h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+.specs-camera-picture {
+    padding-bottom: 3.1em;
+    border-bottom: 4px solid rgb(160, 155, 155);
+}
+
+.picture-details {
+    /*
+    margin-left: 20vw;
+    */
+    width: 60%;
+    margin: 0 auto;
+}
+
+.picture-details p {
+    color: #fff;
+    font-size: 1.7em;
+    line-height: 1.2em;
+}
+
+.video-details {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.video-details p {
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+.specs-camera-back {
+    padding-bottom: 3.1em;
+    border-bottom: 4px solid rgb(160, 155, 155);
+}
+
+.faceid-details {
+    text-align: center;
+    color: #fff;
+    font-size: 1.9em;
+}
+
+.specs-faceid {
+    padding-bottom: 3.1em;
+    border-bottom: 4px solid rgb(160, 155, 155);
+}
+
+.specs-bundles {
+    padding-bottom: 3.6em;
+}
+
+.bundles-details {
+    width: 60%;
+    margin: 2em auto;
+}
+
+.bundles-details p {
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.3em;
+}
+
+.bundles-image {
+    text-align: center;
+}
+
+.bundles-image img {
+    width: 80%;
+}
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    height: auto;
+    background: #111;
+    border-top: 4px solid #ff0000;
+    animation: border 4s linear infinite;
+}
+
+@keyframes border {
+    16% {border-top-color: #ffa500;}
+    32% {border-top-color: #ffff00;}
+    48% {border-top-color: #008000;}
+    64% {border-top-color: #0000ff;}
+    80% {border-top-color: #4b0082;}
+    100% {border-top-color: #ee82ee;}
+}
+
+.footer-title {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 1em 0;
+}
+
+.copyright {
+    cursor: pointer;
+}
+
+.copyright:hover:after {
+    content: "😊";
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 860px) { /*480px*/
+    .intro-title h1 {
+        font-size: 1.7em;
+    }
+    .intro-title p {
+        font-size: 1em;
+    }
+    .display-title h1 {
+        font-size: 3em;
+    }
+    .display-title h3 {
+        font-size: 2em;
+    }
+    .display-info {
+        left: 5%;
+        position: relative;
+    }
+    .h2 {
+        font-size: 1.2em;
+    }
+    .h3 {
+        font-size: 1.4em;
+    }
+    .display-image {
+        text-align: center;
+    }
+    .display-image img {
+        width: 90%;
+    }    
+    .faceid-title {
+        position: relative;
+        left: 2%;
+    }
+    .faceid-title h1 {
+        font-size: 2.2em; 
+    }
+    .faceid-title h3 {
+        font-size: 2em;
+    }
+    .h3-faceid {
+        font-size: 2em;
+    }
+    .h2-faceid {
+        font-size: 1.1em;
+    }
+    .chip-title h1 {
+        font-size: 2.2em;
+    }
+    .chip-title h3 {
+        font-size: 1.7em;
+    }
+    .chip-highlight {
+        /*
+        font-size: 1em;
+        */
+    }
+    .cpu-h3 {
+        font-size: 0.9em;
+    }
+    .cpu-h2 {
+        font-size: 0.9em;
+    }
+    .cpu-main {
+        position: relative;
+        left: 5%;
+    }
+    .cpu-title {
+        width: 80%;
+    }
+    .cpu-image {
+        position: relative;
+        right: 20%;
+    }
+    .cpu-image img {
+        width: 110%;
+    }
+    .process-p {
+        text-align: center;
+        font-size: 1.1em;
+    }
+    .grid-container-chip-show {
+        grid-template-columns: 1fr;
+    }
+    .chip-show-text h3 {
+        font-size: 2em;
+    }
+    .chip-title {
+        position: relative;
+        left: 3%;
+    }
+    .camera-wallpaper img {
+        width: 75%;
+    }
+    .camera-title {
+        position: relative;
+        left: 2%;
+        font-size: 1.4em;
+    }
+    .camera-hdr {
+        position: relative;
+        left: 4%;
+    }
+    .camera-hdr h3 {
+        font-size: 1.5em; 
+    }
+    .camera-action {
+        position: relative;
+        left: 2%;
+    }
+    .camera-action h3 {
+        font-size: 1.6em;
+    }
+    .camera-night {
+        position: relative;
+        left: 2%;
+        padding: 2em 0;
+    }
+    .camera-night h3 {
+        text-align: left;
+        font-size: 1.6em;
+    }
+    .camera-back-details {
+        grid-template-columns: 1fr 1fr;
+    }
+    .camera-back-items {
+        font-size: 0.6em;
+    }
+    .specs-title {
+        text-align: center;
+    }
+    .color-name h1 {
+        font-size: 1.3em;
+    }
+    .display-name {
+        width: 50%;
+    }
+    .display-name h1 {
+        font-size: 2em;
+    }
+    .display-details h4 {
+        font-size: 1.5em;
+    }
+    .picture-details {
+        font-size: 1em;
+        word-wrap: break-word;
+    }
+    .picture-details p {
+        margin: 0.5em 0;
+    }
+    .video-details {
+        font-size: 1em;
+        word-wrap: break-word;
+    }
+    .video-details p {
+        margin: 0.5em 0;
+    }
+    .faceid-details {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .specs-iphone-name h2 {
+        font-size: 3em;
+    }
+    .faceid-details h3 {
+        font-size: 1em;
+    }
+    .bundles-details p {
+        margin: 0.5em 0;
+        font-size: 1.5em;
+    }
+    .footer-title {
+        font-size: 1.5em;
+    }
+    .footer {
+        padding-bottom: 2em;
+    }
+}
+
+@media only screen and (max-width: 321px) { /*480px 860px*/
+    .camera-hdr {
+        position: relative;
+        left: 3%;
+    }
+    .camera-action {
+        position: relative;
+        left: 1%;
+        font-size: 0.7em;
+    }
+    .camera-night {
+        margin: 0 auto;
+        width: 90%;
+        font-size: 0.6em;
+    }
+}
